@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+
+        <h1>
+             Javascript....
+        </h1>
+
+        <p id="output"></p>
+
+        <button id="btn"  
+        onclick="showMessage()"
+        onmouseover="shoemouseoverMessage()"
+        onmouseleave="shoemouseleaveMessage()">Click Me</button>
+
+        <script>
+            function showMessage(){
+                 window.alert("YOu have clicked button")
+                 //document.getElementById()
+            }
+            function shoemouseoverMessage(){
+
+                 document.getElementById("output").textContent = "Yes Your carsor on Me now Click";
+ 
+                //window.alert("YOu moved your cursor to the button");
+            }
+
+            function shoemouseleaveMessage(){
+                //window.alert("YOu moved out your cursor from the button");
+            }
+
+
+
+             console.log("Hello world ");
+
+        </script>
+
+
+    </body>
+</html>
