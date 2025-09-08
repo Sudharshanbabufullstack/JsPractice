@@ -1,41 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
+<head>
+    <title>JavaScript Example</title>
+</head>
+<body>
+    <h1>JavaScript....</h1>
+    <p id="output"></p>
 
-        <h1>
-             Javascript....
-        </h1>
-
-        <p id="output"></p>
-
-        <button id="btn"  
+    <button id="btn"  
         onclick="showMessage()"
         onmouseover="shoemouseoverMessage()"
-        onmouseleave="shoemouseleaveMessage()">Click Me</button>
+        onmouseleave="shoemouseleaveMessage()">
+        Click Me
+    </button>
 
-        <script>
-            function showMessage(){
-                 window.alert("YOu have clicked button")
-                 //document.getElementById()
-            }
-            function shoemouseoverMessage(){
-
-                 document.getElementById("output").textContent = "Yes Your carsor on Me now Click";
- 
-                //window.alert("YOu moved your cursor to the button");
-            }
-
-            function shoemouseleaveMessage(){
-                //window.alert("YOu moved out your cursor from the button");
-            }
-
-
-
-             console.log("Hello world ");
-
-        </script>
-
-
-    </body>
+    <!-- Import external JS file -->
+    <script src="Javascript.js"></script>
+</body>
 </html>
